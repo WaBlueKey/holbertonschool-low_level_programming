@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 /* this program converts lowercase letters to uppercase.*/
 
 char uppercase(char c) {
