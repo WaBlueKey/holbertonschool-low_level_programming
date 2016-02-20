@@ -1,5 +1,6 @@
 #include <limits.h>
 #include <stdio.h>
+
 int absolute(int);
 
 int main(void)
