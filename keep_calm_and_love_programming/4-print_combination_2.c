@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "my_functions.h"
-
+/* this function prints - on one line - all possible combinations of two different digits.*/
 void print_combination_2(void) {
 
   int n1;
