@@ -1,5 +1,8 @@
 #include "my_functions.h"
 
+/* this is a function that prints (on one line) all possible 
+   combinations of two different digits. */
+
 void print_combination_2(void) {
   int n1;
   int n2;

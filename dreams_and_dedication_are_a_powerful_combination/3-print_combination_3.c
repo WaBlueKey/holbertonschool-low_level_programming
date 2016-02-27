@@ -1,4 +1,6 @@
 #include "my_functions.h"
+/* this is a function that prints (on one line) all possible 
+   combinations of three different digits. */
 
 void print_combination_3(void) {
 
