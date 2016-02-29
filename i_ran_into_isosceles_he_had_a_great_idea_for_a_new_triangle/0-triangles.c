@@ -6,9 +6,9 @@ void triangles_in_the_term(int h, int n) {
   int num_t, line, space, star;
 
   for (num_t = 1; num_t <= n; num_t++) { 
-  /* for loop for # of triangles. */
+  /* for loop to print # of triangles. */
     for (line = 1; line <= h; line++) {
-    /* for loop for printing lines of triangle. */
+    /* for loop to print lines of triangle. */
       for (space = h - line; space > 0; space--) {
       /* for loop to print spaces before *. */
 	printf(" ");
