@@ -1,5 +1,5 @@
 int print_char(char c);
-
+/* the function concatenates two strings.*/
 char *concat_strings(char *dest, const char *src) {
   int s;
   int d;
