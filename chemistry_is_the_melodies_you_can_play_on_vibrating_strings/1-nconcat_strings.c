@@ -10,6 +10,6 @@ char *nconcat_strings(char *dest, const char *src, int n) {
   for (s = 0; s < n && src[s] != '\0'; s++, d++) {
   dest[d] = src[s];
   }
-  dest[d+s] = '\0';
+  dest[d] = '\0';
   return dest;
 }
