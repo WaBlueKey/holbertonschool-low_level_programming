@@ -1,6 +1,6 @@
 #include <limits.h>
-#include <math.h>
 
+/* this function returns the value of x raised to the power of y.*/
 int power(int x, int y) {
 
   if((x^y) < 0 || (x^y) > INT_MAX) {
