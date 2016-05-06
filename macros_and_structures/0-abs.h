@@ -7,7 +7,7 @@
  *
  * this macro returns the absolute value of an interger.
  *
- *  by Zee Adams, 2016.
+ *  by Zee Adams, May 2016.
  */
 
 # define ABS(i) i < 0 ? (i * -1):i

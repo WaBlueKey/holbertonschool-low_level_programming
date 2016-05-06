@@ -3,7 +3,7 @@
  * task #: 1
  * file name: 1-string_to_struct.c
  * file type: c
- * dependent files:  1-main.c, 1-print_string_struct.c, str_struct.h
+ * dependent files: 1-main.c, 1-print_string_struct.c, str_struct.h
  *
  *
  * this function stores a string and its length in a newly allocated structure,
@@ -13,7 +13,7 @@
  *       int length;
  *    };
  *
- *  by Zee Adams, 2016.
+ *  by Zee Adams, May 2016.
  */
 
 #include <stdlib.h>
