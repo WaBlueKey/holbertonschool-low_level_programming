@@ -1,6 +1,6 @@
 /*
  * project directory: macros_and_structures
- * task #: 1
+ * task #: 0
  * file name: 0-abs.h
  * file type: header
  * dependent file(s): 0-main.c
