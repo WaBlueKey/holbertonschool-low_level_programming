@@ -22,16 +22,21 @@ int main(int ac, char *av[]) {
   int fd;
   char tmp[buf_size];
 
-  if(ac == 1) {
+  if(ac == 1) { /* if no file is selected on command line */
     return 1;
   }
-  fd = open(av[1], O_RDONLY);
-  r = read(fd, tmp, buf_size);
+  fd = open(av[1], O_RDONLY);/* open file selected on command line read only */
+  if(fd == -1) { /* error if file cannot be opened */
+    return(1);
+  }
+  r = read(fd, tmp, buf_size); /* read file into the tmp buffer space */
 
-  if(r > 0) {
-    write(1, tmp, r);
+
+  if((write(1, tmp, r)) != r) { /* error if there isn't enough memory */
+    return(1);
+
   }
 
-  close(fd);
+  close(fd); /* close the file read from */
   return(0);
 }
