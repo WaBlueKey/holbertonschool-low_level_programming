@@ -31,12 +31,9 @@ int main(int ac, char *av[]) {
   }
   r = read(fd, tmp, buf_size); /* read file into the tmp buffer space */
 
-
   if((write(1, tmp, r)) != r) { /* error if there isn't enough memory */
     return(1);
-
   }
-
   close(fd); /* close the file read from */
   return(0);
 }
