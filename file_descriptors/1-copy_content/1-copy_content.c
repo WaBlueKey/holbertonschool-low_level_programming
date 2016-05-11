@@ -13,7 +13,6 @@
 
 #include <fcntl.h>
 #include <unistd.h>
-#include <stdio.h>
 #define buf_size 512 /* Define buffer size since stdio.h is limited for use. */
 
 int main(int ac, char *av[]) {
@@ -43,8 +42,7 @@ int main(int ac, char *av[]) {
  if((write(c, tmp, r)) != r) { /* error if there isn't enough memory */
    return(1);
  }
- write(c, tmp, r); /* write to the newly created file the tmp content */
-
+ /* write(c, tmp, r) write to the newly created file the tmp content */
  close(c); /* close the newly created file */
  return(0);
 }
