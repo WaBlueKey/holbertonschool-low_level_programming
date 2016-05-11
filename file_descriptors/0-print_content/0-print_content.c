@@ -13,7 +13,6 @@
 
 #include <fcntl.h>
 #include <unistd.h>
-#include <stdio.h>
 #define buf_size 512 /* Define buffer size since stdio.h is limited for use.*/
 
 int main(int ac, char *av[]) {
