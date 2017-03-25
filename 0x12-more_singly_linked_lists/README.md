@@ -1,1 +1,3 @@
-## More singly linked lists
+## More Singly Linked Lists Project
+
+Total # of Task: 10
