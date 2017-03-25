@@ -15,15 +15,16 @@
 size_t print_listint(const listint_t *h)
 {
 
-size_t count = 0;
+	size_t count = 0;
 
   /* Loop to iterate over list to print and count nodes. */
-while (h != NULL)
-{
-printf("%d\n", h->n);
-h = h->next;
-count++;
-}
-  /* Return number of nodes in list. */
-return (count);
+	while (h != NULL)
+	{
+
+		printf("%d\n", h->n);
+		h = h->next;
+		count++;
+	}
+	/* Return number of nodes in list. */
+	return (count);
 }
