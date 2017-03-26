@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include "lists.h"
+
 /**
  * print_listint - function to print and count nodes in a list
  * @h: pointer to the head of a list
@@ -8,9 +11,6 @@
  * Description: function that prints all the elements of a listint_t list
  * for Holberton project - Task 0 of More singly linked lists project
  */
-
-#include <stdio.h>
-#include "lists.h"
 
 size_t print_listint(const listint_t *h)
 {
