@@ -1,3 +1,3 @@
 ## More Singly Linked Lists Project
 
-Total # of Task: 10
+Total # of Tasks: 10
