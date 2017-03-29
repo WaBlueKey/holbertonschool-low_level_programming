@@ -2,15 +2,11 @@
 #include "lists.h"
 
 /**
- * add_nodeint - function to add a node to the beginning of the list
+ * add_nodeint - returns a new node at the beginning of a listint_t list
  * @head: pointer to the head of a list
- * @next: points to the next node
  * @n: integer
  *
- * return: the new element, or NULL if it failed
- *
- * Description: function that adds an elements to the beginning of listint_t
- * list - Task 2 of More singly linked lists project
+ * Return: a new node
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
