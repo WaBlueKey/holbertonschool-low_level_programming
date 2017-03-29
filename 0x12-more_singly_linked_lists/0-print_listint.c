@@ -2,24 +2,18 @@
 #include "lists.h"
 
 /**
- * print_listint - function to print and count nodes in a list
+ * print_listint - function to print and returns # of nodes in a list
  * @h: pointer to the head of a list
- * @count: integer to keep count of the number of nodes
- * @next: points to the next node
- * @n: integer
  *
- * Description: function that prints all the elements of a listint_t list
- * for Holberton project - Task 0 of More singly linked lists project
+ * Return: counts the elements of a listint_t list
  */
 
 size_t print_listint(const listint_t *h)
 {
-
 	size_t count = 0;
 
 	while (h != NULL)
 	{
-
 		printf("%d\n", h->n);
 		h = h->next;
 		count++;
