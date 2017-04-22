@@ -10,7 +10,7 @@
  * return: the new element, or NULL if it failed
  *
  * Description: function that adds an elements to the beginning of listint_t
- * list - Task 2 of More singly linked lists project
+ * list - Task two of More singly linked lists project
  */
  listint_t *add_nodeint_end(listint_t **head, const int n)
  {
