@@ -12,27 +12,29 @@
  * Description: function that adds an elements to the beginning of listint_t
  * list - Task 2 of More singly linked lists project
  */
-listint_t *add_nodeint_end(listint_t **head, const int n)
-{
-	/* 1. allocate node */
-	listint_t *new_node = malloc(sizeof(listint_t));
-	listint_t *last = *head;
+ listint_t *add_nodeint_end(listint_t **head, const int n)
+ {
+ 	listint_t *current = *head;
+ 	listint_t *new_node = malloc(sizeof(listint_t));
 
-	new_node->n = n;
-	new_node->next = NULL;
+ 	new_node->n = n;
+ 	new_node->next = NULL;
+ 	if (new_node == NULL)
+ 	{
+ 		return (NULL);
+ 	}
 
-	if (*head == NULL)
-	{
-		*head = new_node;
-		return (new_node);
-	}
-
-	if (last->next == NULL)
-	{
-		return (NULL);
-	}
-
-		last = last->next;
-		last->next = new_node;
-		return (new_node);
-}
+ 	if (*head == NULL)
+ 	{
+ 		*head = new_node;
+ 	}
+ 	else
+ 	{
+ 		while (current->next != NULL)
+ 		{
+ 			current = current->next;
+ 		}
+ 		current->next = new_node;
+ 	}
+ 	return (new_node);
+ }
