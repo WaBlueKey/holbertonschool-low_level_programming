@@ -6,7 +6,7 @@
  * @head: pointer to the head of a list
  * @n: integer
  *
- * return: the new element, or NULL if it failed
+ * Return: the new element, or NULL if it failed
  *
  * Description: function that adds an elements to the beginning of listint_t
  * list - Task two of More singly linked lists project
