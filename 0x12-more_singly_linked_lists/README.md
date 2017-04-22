@@ -1,3 +1,3 @@
 ## More Singly Linked Lists Project
 
-Total # of Tasks: 10
+Collaborated with Gloria: https://github.com/nappybrainiac
