@@ -4,7 +4,6 @@
 /**
  * add_nodeint_end - function to add a node to the end of the list
  * @head: pointer to the head of a list
- * @next: points to the next node
  * @n: integer
  *
  * return: the new element, or NULL if it failed
