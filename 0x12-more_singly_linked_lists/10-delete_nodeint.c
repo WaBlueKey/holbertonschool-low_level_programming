@@ -14,7 +14,7 @@
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *current;
-	listint_t *del_node;
+	listint_t *deleted;
 	unsigned int i = 0; /* iterator */
 
 	current = *head;
@@ -32,9 +32,9 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		}
 		else if (i == (index - 1))
 		{
-			del_node = current->next;
+			deleted = current->next;
 			current->next = current->next->next;
-			free(del_node);
+			free(deleted);
 			return (1);
 		}
 		current = current->next;
